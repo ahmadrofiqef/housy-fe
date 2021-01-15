@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  housy-fe:
+     container_name: housy-fe
+     image: ahmadrofiqef/housy-fe:1.0
+     stdin_open: true
+     ports:
+        - 3000:3000
+
